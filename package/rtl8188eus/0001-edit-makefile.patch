@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 2ac334b..cb05c80 100755
+--- a/Makefile
++++ b/Makefile
+@@ -26,6 +26,8 @@ EXTRA_LDFLAGS += --strip-debug
+ 
+ CONFIG_AUTOCFG_CP = n
+ 
++CONFIG_RTL8188EU = m
++
+ ########################## WIFI IC ############################
+ CONFIG_MULTIDRV = n
+ CONFIG_RTL8188E = y
