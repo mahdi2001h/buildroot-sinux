@@ -2,7 +2,7 @@
 
 
 ## Driver support
-Check this file to view current driver support progress for SINUX F1: [PROGRESS-SINUX-F1.md](PROGRESS-SINUX-F1)
+Check this file to view current driver support progress for SINUX F1: [PROGRESS-SINUX-F1](PROGRESS-SINUX-F1.md)
 
 ## Install
 
