@@ -42,6 +42,18 @@ If you have a multicore CPU, you can try
 make -j ${YOUR_CPU_COUNT}
 ```
 
+## using docker environment for build
+build docker image build execute below command
+```shell
+sudo docker build -t buildroot-ubuntu18:latest .
+```
+after build docker image create docker container with belo command and follow build instruction:
+```shell
+sudo docker run -it --rm \
+  -v $PWD/buildroot-sinux/:/buildroot-sinux \
+  buildroot-ubuntu18:latest
+
+
 
 ## Flashing firmware to target
 ### WARNING: Please be careful when running the following commands, as you might destroy essential data or disk.
